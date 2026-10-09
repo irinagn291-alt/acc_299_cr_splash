@@ -1,0 +1,19 @@
+Perchseal asks for Camera only. The prompt appears the first time Tonight has birds and you tap Continue on The perch camera reads the wing band and photographs an empty spot. Continue presents the system camera dialog. The system usage string is: Perchseal uses the camera to read a wing band at lockup and to photograph an empty perch when a bird is missing. If the camera was denied or restricted, Tonight shows The camera is off. Open Settings to use the live perch, or type the code on the strip. plus Open Settings.
+
+There is no login, no in-app purchase, no shared user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Perchseal is an evening lockup book for backyard keepers who lose track of headcount after free-ranging. Each night you mark every banded bird home, photograph an empty perch if someone is missing, and seal when the perch matches the birds you still keep. It is a personal census, not a farm ledger of mash or eggs.
+
+No credentials or demo account are needed. A cold launch shows a dark system launch screen with no words, then a brief empty wait. On a physical device with no flock yet, four onboarding pages follow. 1 of 4: Lock up the flock. Each evening the perch should match the birds you still keep. Next. 2 of 4: Scan the band. A known wing band marks that bird home. One manual mark is allowed each week. Next. 3 of 4: Photograph the gap. If someone is missing, photograph the empty perch before you seal. Next. 4 of 4: Seal the night. Seal when every bird is counted, or the empty perch has a photo. Continue. Skip on any page, or Continue on the last page, finishes onboarding and opens Tonight. On the Simulator, the first launch skips these pages and opens Tonight with Maple (PSL-MAPLE), Brass (PSL-BRASS), Cinder (PSL-CINDER), and Pebble (PSL-PEBBLE). Maple, Brass, and Cinder are Counted. Pebble is Still out. The job line is Pebble is still out. Scan Pebble, or photograph the empty perch.
+
+On a physical device Tonight shows No flock yet, Add the birds first, and Band a bird, which opens Birds. Type a Name and a Wing code, then Band a bird. Close returns to Tonight. When Tonight has birds and the camera has not been asked, the card shows The perch camera reads the wing band and photographs an empty spot. and Continue. On the strip, type a Wing code or tap Scan Pebble to mark that bird Counted, tap Photograph the gap while someone is still out (Gap note defaults to Empty perch), then Seal when the job line is Counts match. Seal the night. After a seal, Reopen drops the last count, photo, or manual mark. Tap a Still out chip for one manual mark per bird each week. This week shows still out, Gap rate, and Health. Scan Pebble on This week only returns to Tonight and does not count the bird. Settings has Export roll CSV after at least one seal, Replay onboarding, Reset all data, and Contact Perchseal. An unknown scan shows Unknown code with Add to roster and Leave it.
+
+Bird names, wing codes, tonight's roll, sealed nights, and gap photos stay on this device. Contact Perchseal in Settings opens the support page.
+
+There is no country lock. The words are English. Counts and percents follow the device locale. Tonight is the local calendar day.
+
+No licence or regulated-industry paperwork applies. The app is a personal census, not a medical or farm product.
+
+This week shows a Health figure (100 on this census), No mash on this census, and No egg count on this census. There is no medical advice and no citations. The app is a personal log only and gives no recommendations.
+
+The camera reads QR codes on wing bands. It expects the same wing code typed when the bird was banded. It does not scan product barcodes. A scannable QR (qr-code.png) is attached to this review. It encodes PSL-PEBBLE. Simulator users type those digits in the Wing code field on the Tonight strip.

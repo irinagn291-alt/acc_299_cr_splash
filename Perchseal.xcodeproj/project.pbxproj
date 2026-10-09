@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AEC33E0A418AF9BA546BF0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED66196FA1D76403BAE3344F /* AppDelegate.swift */; };
+		0B4CBE68867157B587C7402E /* Peel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9F05DF1E96105880C0E0C /* Peel.swift */; };
+		0C89ABD4692AC45DC20C103E /* PerchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5677B28173842B543FBE92 /* PerchStore.swift */; };
+		100C4236A659C1A089926AA7 /* StrayMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40919402A617703F62BB974A /* StrayMark.swift */; };
+		20D414E6326BBA0025ECFE47 /* PerchChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83AA9D2FAB52DAAD5584E2 /* PerchChart.swift */; };
+		2EC0B4EC18933F122E51517B /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F514FFC1016E5377396AA /* OnboardingScreen.swift */; };
+		3273B1B1D2540718D4EA916C /* FlockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6558CBC17AE5CF81534DD9 /* FlockScreen.swift */; };
+		33C5B2F19C31926377A923EC /* EarlyMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF18E475A9E5C5200E4E54 /* EarlyMark.swift */; };
+		3ED0C97512770A3CDB19C77B /* PerchPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7BD60C4CEDB92ED744049 /* PerchPreview.swift */; };
+		3F78E785108031F2B57DD811 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDDB6FB74EC1E1738612401 /* APIConfig.swift */; };
+		41435DB674DE096C669902DE /* Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D7CEB6904654D1E430433 /* Present.swift */; };
+		4EE344F66AC62C6B666ADF81 /* Daykey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF4390DA197586894B9375 /* Daykey.swift */; };
+		4EE55A3A207259F993216247 /* PerchsealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A48906C66636B0F8342266 /* PerchsealApp.swift */; };
+		4F94D2A9C3C064472B9A6796 /* FlockLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1266AAF1680388AE968E717 /* FlockLedger.swift */; };
+		611229B0D9105F885EA384C5 /* GapPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38283CBE5F86210A34B1726D /* GapPhoto.swift */; };
+		65F22D3495E7D4C75215F006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBB5A174DA7E3EB006B9263 /* Assets.xcassets */; };
+		739966B2B4E466243448133F /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233065F0E745DA8DEE1D3AA /* SettingsScreen.swift */; };
+		7C1093667BCEDF35FEC61925 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF652F10255CD680DF422619 /* ContentView.swift */; };
+		7E38485EEB3C23A8159BD3B2 /* RollFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED76591638B847C133225FF3 /* RollFold.swift */; };
+		817BB6263B4B718695D3E2A7 /* Rhumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9F3E439BB1E6DB6EAD177 /* Rhumb.swift */; };
+		81C9FD0A4271C5DA376C9BCB /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B04BF2C3927AB3EB593EDFC /* Bird.swift */; };
+		8CB53230400C598E6A2B62C1 /* GapMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F8ED6034B4E6AE3CEA5CA6 /* GapMark.swift */; };
+		8D02D0DF62317C623EE9D961 /* WingPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4637EC203D7C0AC1FECAE8A /* WingPress.swift */; };
+		8E9FF25F2F66F18BEDDC0982 /* ChartDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBF3DBB3ADBE96013D51EF1 /* ChartDisk.swift */; };
+		92989C5ED2D00EBCD23B6A99 /* RollCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C093758CCBDB38A87904C /* RollCSV.swift */; };
+		9B4B901B6D2C509D70CDA2F3 /* Roster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70AE3ED32F1683650BD0677 /* Roster.swift */; };
+		9B85BB9172CE80B713CA12C0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E42A3320F8027FC07DDC6AF5 /* Alamofire */; };
+		A78E31679EF1D8CAE077DA44 /* ManualWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723044FD6D96A27C2C8A6EE5 /* ManualWindow.swift */; };
+		AE4389FFDF87D4F5555B62D8 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1708764E766CF9A144F7BA /* ReviewLaunch.swift */; };
+		B37D3C7DD3A1252C443CA37A /* PerchsealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F76CF7A48815D4297B3BD /* PerchsealTests.swift */; };
+		BB6AE649A4078C51A9169EA6 /* PresentTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC92AA38050EB56807F2CE /* PresentTap.swift */; };
+		CB688F1EC994A7D86C955A23 /* Flock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310FBAA8781650C2C3DF67B /* Flock.swift */; };
+		CBAF6C354289B2EC356892EA /* RollMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E7D39178B0C9217BD04227 /* RollMark.swift */; };
+		D1CE3B4A29963817DF5F7E67 /* HollowMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CA0F7EDDDF46E7D61CF95 /* HollowMark.swift */; };
+		D4DD8D7BE5952BFDE31CCB91 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31E62EE23B8F2F83A114C54 /* DesignTokens.swift */; };
+		D5FD70582BFFFC741A1EF6A5 /* WingLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC6D5A2C15B7D9C1D2C49F /* WingLook.swift */; };
+		E11FD00680827FA3121D3C16 /* AnalyticsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878FCE448665F923542C5E2 /* AnalyticsScreen.swift */; };
+		E42D5A08ECB8494727F3F6F4 /* ManualMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D01DF3A810D631E79FD8DA /* ManualMark.swift */; };
+		F083895A3F382468F8639079 /* RosterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0029EF44485DEED5E435E9 /* RosterScreen.swift */; };
+		FED90DB27D76A27E86944330 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C6E3D59B9044A243830E /* Band.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6CF1568D4A7BEC47BAA6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43BFADF8C9FDB778EA7205D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC71F4798E020E2F12EA63F;
+			remoteInfo = Perchseal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B04BF2C3927AB3EB593EDFC /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		0BDDB6FB74EC1E1738612401 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		0FBF3DBB3ADBE96013D51EF1 /* ChartDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDisk.swift; sourceTree = "<group>"; };
+		143F76CF7A48815D4297B3BD /* PerchsealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchsealTests.swift; sourceTree = "<group>"; };
+		1ABF4390DA197586894B9375 /* Daykey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daykey.swift; sourceTree = "<group>"; };
+		2847C5ABF4FC484E3A05C40E /* Perchseal.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Perchseal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF9F05DF1E96105880C0E0C /* Peel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peel.swift; sourceTree = "<group>"; };
+		31A9F3E439BB1E6DB6EAD177 /* Rhumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhumb.swift; sourceTree = "<group>"; };
+		38283CBE5F86210A34B1726D /* GapPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapPhoto.swift; sourceTree = "<group>"; };
+		40919402A617703F62BB974A /* StrayMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrayMark.swift; sourceTree = "<group>"; };
+		4625E435F1D26CBF07BFA9E7 /* PerchsealTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PerchsealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A83AA9D2FAB52DAAD5584E2 /* PerchChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchChart.swift; sourceTree = "<group>"; };
+		5310FBAA8781650C2C3DF67B /* Flock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flock.swift; sourceTree = "<group>"; };
+		58A7BD60C4CEDB92ED744049 /* PerchPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchPreview.swift; sourceTree = "<group>"; };
+		59A48906C66636B0F8342266 /* PerchsealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchsealApp.swift; sourceTree = "<group>"; };
+		6C7CA0F7EDDDF46E7D61CF95 /* HollowMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowMark.swift; sourceTree = "<group>"; };
+		6D8D7CEB6904654D1E430433 /* Present.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present.swift; sourceTree = "<group>"; };
+		6F6558CBC17AE5CF81534DD9 /* FlockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockScreen.swift; sourceTree = "<group>"; };
+		723044FD6D96A27C2C8A6EE5 /* ManualWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualWindow.swift; sourceTree = "<group>"; };
+		72F8ED6034B4E6AE3CEA5CA6 /* GapMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapMark.swift; sourceTree = "<group>"; };
+		7A70C6E3D59B9044A243830E /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
+		7F0029EF44485DEED5E435E9 /* RosterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterScreen.swift; sourceTree = "<group>"; };
+		84FC92AA38050EB56807F2CE /* PresentTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTap.swift; sourceTree = "<group>"; };
+		8878FCE448665F923542C5E2 /* AnalyticsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsScreen.swift; sourceTree = "<group>"; };
+		8E9F514FFC1016E5377396AA /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		9DBB5A174DA7E3EB006B9263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E7D39178B0C9217BD04227 /* RollMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollMark.swift; sourceTree = "<group>"; };
+		A31E62EE23B8F2F83A114C54 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		AF5677B28173842B543FBE92 /* PerchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchStore.swift; sourceTree = "<group>"; };
+		AF652F10255CD680DF422619 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9D01DF3A810D631E79FD8DA /* ManualMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMark.swift; sourceTree = "<group>"; };
+		D1266AAF1680388AE968E717 /* FlockLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockLedger.swift; sourceTree = "<group>"; };
+		D233065F0E745DA8DEE1D3AA /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		D3CC6D5A2C15B7D9C1D2C49F /* WingLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WingLook.swift; sourceTree = "<group>"; };
+		D4637EC203D7C0AC1FECAE8A /* WingPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WingPress.swift; sourceTree = "<group>"; };
+		ED1708764E766CF9A144F7BA /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		ED66196FA1D76403BAE3344F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED76591638B847C133225FF3 /* RollFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollFold.swift; sourceTree = "<group>"; };
+		EEBF18E475A9E5C5200E4E54 /* EarlyMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyMark.swift; sourceTree = "<group>"; };
+		F70AE3ED32F1683650BD0677 /* Roster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roster.swift; sourceTree = "<group>"; };
+		F88C093758CCBDB38A87904C /* RollCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollCSV.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358D6D1C5B91A7C2BE084116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B85BB9172CE80B713CA12C0 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7B46E0D7EF36141007CFAF /* GapMark */ = {
+			isa = PBXGroup;
+			children = (
+				72F8ED6034B4E6AE3CEA5CA6 /* GapMark.swift */,
+				38283CBE5F86210A34B1726D /* GapPhoto.swift */,
+			);
+			path = GapMark;
+			sourceTree = "<group>";
+		};
+		5755170D851DFA09504BB26A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2847C5ABF4FC484E3A05C40E /* Perchseal.app */,
+				4625E435F1D26CBF07BFA9E7 /* PerchsealTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66347B4FB88C350D8B16494F /* Bird */ = {
+			isa = PBXGroup;
+			children = (
+				0B04BF2C3927AB3EB593EDFC /* Bird.swift */,
+				1ABF4390DA197586894B9375 /* Daykey.swift */,
+				5310FBAA8781650C2C3DF67B /* Flock.swift */,
+				D1266AAF1680388AE968E717 /* FlockLedger.swift */,
+				6F6558CBC17AE5CF81534DD9 /* FlockScreen.swift */,
+			);
+			path = Bird;
+			sourceTree = "<group>";
+		};
+		72402E90082D44D59F139DE8 /* ManualMark */ = {
+			isa = PBXGroup;
+			children = (
+				B9D01DF3A810D631E79FD8DA /* ManualMark.swift */,
+				723044FD6D96A27C2C8A6EE5 /* ManualWindow.swift */,
+			);
+			path = ManualMark;
+			sourceTree = "<group>";
+		};
+		74CFE679396AA63D9A61AF69 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				8878FCE448665F923542C5E2 /* AnalyticsScreen.swift */,
+				8E9F514FFC1016E5377396AA /* OnboardingScreen.swift */,
+				6D8D7CEB6904654D1E430433 /* Present.swift */,
+				84FC92AA38050EB56807F2CE /* PresentTap.swift */,
+				D233065F0E745DA8DEE1D3AA /* SettingsScreen.swift */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		8E5F63D9C7310ECF38E726A1 /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				0FBF3DBB3ADBE96013D51EF1 /* ChartDisk.swift */,
+				4A83AA9D2FAB52DAAD5584E2 /* PerchChart.swift */,
+				AF5677B28173842B543FBE92 /* PerchStore.swift */,
+				F70AE3ED32F1683650BD0677 /* Roster.swift */,
+				7F0029EF44485DEED5E435E9 /* RosterScreen.swift */,
+			);
+			path = Roster;
+			sourceTree = "<group>";
+		};
+		9790D1BBDF0623F330B543C5 /* RollMark */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF18E475A9E5C5200E4E54 /* EarlyMark.swift */,
+				6C7CA0F7EDDDF46E7D61CF95 /* HollowMark.swift */,
+				2CF9F05DF1E96105880C0E0C /* Peel.swift */,
+				31A9F3E439BB1E6DB6EAD177 /* Rhumb.swift */,
+				ED76591638B847C133225FF3 /* RollFold.swift */,
+				A0E7D39178B0C9217BD04227 /* RollMark.swift */,
+			);
+			path = RollMark;
+			sourceTree = "<group>";
+		};
+		AFB3D2B017CC3DD8568AA1C8 /* Band */ = {
+			isa = PBXGroup;
+			children = (
+				7A70C6E3D59B9044A243830E /* Band.swift */,
+				40919402A617703F62BB974A /* StrayMark.swift */,
+			);
+			path = Band;
+			sourceTree = "<group>";
+		};
+		B3B203575C9E5779E0CB5D90 = {
+			isa = PBXGroup;
+			children = (
+				F5A2DEDAA5850F8384167273 /* Perchseal */,
+				EB2D49DAB0DDA74853B106F1 /* PerchsealTests */,
+				5755170D851DFA09504BB26A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA30952454C3C4265D1D10E /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				58A7BD60C4CEDB92ED744049 /* PerchPreview.swift */,
+			);
+			path = Snap;
+			sourceTree = "<group>";
+		};
+		EB2D49DAB0DDA74853B106F1 /* PerchsealTests */ = {
+			isa = PBXGroup;
+			children = (
+				143F76CF7A48815D4297B3BD /* PerchsealTests.swift */,
+			);
+			path = PerchsealTests;
+			sourceTree = "<group>";
+		};
+		F5A2DEDAA5850F8384167273 /* Perchseal */ = {
+			isa = PBXGroup;
+			children = (
+				0BDDB6FB74EC1E1738612401 /* APIConfig.swift */,
+				ED66196FA1D76403BAE3344F /* AppDelegate.swift */,
+				9DBB5A174DA7E3EB006B9263 /* Assets.xcassets */,
+				AF652F10255CD680DF422619 /* ContentView.swift */,
+				A31E62EE23B8F2F83A114C54 /* DesignTokens.swift */,
+				59A48906C66636B0F8342266 /* PerchsealApp.swift */,
+				ED1708764E766CF9A144F7BA /* ReviewLaunch.swift */,
+				F88C093758CCBDB38A87904C /* RollCSV.swift */,
+				D3CC6D5A2C15B7D9C1D2C49F /* WingLook.swift */,
+				D4637EC203D7C0AC1FECAE8A /* WingPress.swift */,
+				AFB3D2B017CC3DD8568AA1C8 /* Band */,
+				66347B4FB88C350D8B16494F /* Bird */,
+				4D7B46E0D7EF36141007CFAF /* GapMark */,
+				72402E90082D44D59F139DE8 /* ManualMark */,
+				74CFE679396AA63D9A61AF69 /* Present */,
+				9790D1BBDF0623F330B543C5 /* RollMark */,
+				8E5F63D9C7310ECF38E726A1 /* Roster */,
+				DDA30952454C3C4265D1D10E /* Snap */,
+			);
+			path = Perchseal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B0C543D43C39244BA4AF23 /* PerchsealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BA7FE4DA24840A8774D7C6 /* Build configuration list for PBXNativeTarget "PerchsealTests" */;
+			buildPhases = (
+				3B86E5F2D49F7D2931E1CAC6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0762C7F04617FA082B5419 /* PBXTargetDependency */,
+			);
+			name = PerchsealTests;
+			packageProductDependencies = (
+			);
+			productName = PerchsealTests;
+			productReference = 4625E435F1D26CBF07BFA9E7 /* PerchsealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DC71F4798E020E2F12EA63F /* Perchseal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05780D79EFD5F6B19A36BAAE /* Build configuration list for PBXNativeTarget "Perchseal" */;
+			buildPhases = (
+				913A3B61E6D23777F38765A7 /* Sources */,
+				F1164E789BF6EB3F4169D907 /* Resources */,
+				358D6D1C5B91A7C2BE084116 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Perchseal;
+			packageProductDependencies = (
+				E42A3320F8027FC07DDC6AF5 /* Alamofire */,
+			);
+			productName = Perchseal;
+			productReference = 2847C5ABF4FC484E3A05C40E /* Perchseal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43BFADF8C9FDB778EA7205D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					22B0C543D43C39244BA4AF23 = {
+						ProvisioningStyle = Automatic;
+					};
+					6DC71F4798E020E2F12EA63F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4505F5AE09F170E4AE14FCFA /* Build configuration list for PBXProject "Perchseal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B3B203575C9E5779E0CB5D90;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3275584AF00BEC585914F8D1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5755170D851DFA09504BB26A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC71F4798E020E2F12EA63F /* Perchseal */,
+				22B0C543D43C39244BA4AF23 /* PerchsealTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1164E789BF6EB3F4169D907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F22D3495E7D4C75215F006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B86E5F2D49F7D2931E1CAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37D3C7DD3A1252C443CA37A /* PerchsealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913A3B61E6D23777F38765A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F78E785108031F2B57DD811 /* APIConfig.swift in Sources */,
+				E11FD00680827FA3121D3C16 /* AnalyticsScreen.swift in Sources */,
+				0AEC33E0A418AF9BA546BF0A /* AppDelegate.swift in Sources */,
+				FED90DB27D76A27E86944330 /* Band.swift in Sources */,
+				81C9FD0A4271C5DA376C9BCB /* Bird.swift in Sources */,
+				8E9FF25F2F66F18BEDDC0982 /* ChartDisk.swift in Sources */,
+				7C1093667BCEDF35FEC61925 /* ContentView.swift in Sources */,
+				4EE344F66AC62C6B666ADF81 /* Daykey.swift in Sources */,
+				D4DD8D7BE5952BFDE31CCB91 /* DesignTokens.swift in Sources */,
+				33C5B2F19C31926377A923EC /* EarlyMark.swift in Sources */,
+				CB688F1EC994A7D86C955A23 /* Flock.swift in Sources */,
+				4F94D2A9C3C064472B9A6796 /* FlockLedger.swift in Sources */,
+				3273B1B1D2540718D4EA916C /* FlockScreen.swift in Sources */,
+				8CB53230400C598E6A2B62C1 /* GapMark.swift in Sources */,
+				611229B0D9105F885EA384C5 /* GapPhoto.swift in Sources */,
+				D1CE3B4A29963817DF5F7E67 /* HollowMark.swift in Sources */,
+				E42D5A08ECB8494727F3F6F4 /* ManualMark.swift in Sources */,
+				A78E31679EF1D8CAE077DA44 /* ManualWindow.swift in Sources */,
+				2EC0B4EC18933F122E51517B /* OnboardingScreen.swift in Sources */,
+				0B4CBE68867157B587C7402E /* Peel.swift in Sources */,
+				20D414E6326BBA0025ECFE47 /* PerchChart.swift in Sources */,
+				3ED0C97512770A3CDB19C77B /* PerchPreview.swift in Sources */,
+				0C89ABD4692AC45DC20C103E /* PerchStore.swift in Sources */,
+				4EE55A3A207259F993216247 /* PerchsealApp.swift in Sources */,
+				41435DB674DE096C669902DE /* Present.swift in Sources */,
+				BB6AE649A4078C51A9169EA6 /* PresentTap.swift in Sources */,
+				AE4389FFDF87D4F5555B62D8 /* ReviewLaunch.swift in Sources */,
+				817BB6263B4B718695D3E2A7 /* Rhumb.swift in Sources */,
+				92989C5ED2D00EBCD23B6A99 /* RollCSV.swift in Sources */,
+				7E38485EEB3C23A8159BD3B2 /* RollFold.swift in Sources */,
+				CBAF6C354289B2EC356892EA /* RollMark.swift in Sources */,
+				9B4B901B6D2C509D70CDA2F3 /* Roster.swift in Sources */,
+				F083895A3F382468F8639079 /* RosterScreen.swift in Sources */,
+				739966B2B4E466243448133F /* SettingsScreen.swift in Sources */,
+				100C4236A659C1A089926AA7 /* StrayMark.swift in Sources */,
+				D5FD70582BFFFC741A1EF6A5 /* WingLook.swift in Sources */,
+				8D02D0DF62317C623EE9D961 /* WingPress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0762C7F04617FA082B5419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC71F4798E020E2F12EA63F /* Perchseal */;
+			targetProxy = AB6CF1568D4A7BEC47BAA6E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38E4656E599AA08E77FB6E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CR Splash";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Perchseal uses the camera to read a wing band at lockup and to photograph an empty perch when a bird is missing.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perchseal.lockup;
+				PRODUCT_NAME = Perchseal;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83278E0374915ABD3EA91A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CR Splash";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Perchseal uses the camera to read a wing band at lockup and to photograph an empty perch when a bird is missing.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perchseal.lockup;
+				PRODUCT_NAME = Perchseal;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B55AD6AF5BB1F1B0E1086F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.perchseal.lockup.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perchseal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Perchseal";
+			};
+			name = Release;
+		};
+		AFAB391E7AB3F49F06A27DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.perchseal.lockup.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perchseal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Perchseal";
+			};
+			name = Debug;
+		};
+		E1D05DDA15F069AB9391E96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		F6EB4A5BAE8E08D70B2CD3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05780D79EFD5F6B19A36BAAE /* Build configuration list for PBXNativeTarget "Perchseal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E4656E599AA08E77FB6E0C /* Debug */,
+				83278E0374915ABD3EA91A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4505F5AE09F170E4AE14FCFA /* Build configuration list for PBXProject "Perchseal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EB4A5BAE8E08D70B2CD3D1 /* Debug */,
+				E1D05DDA15F069AB9391E96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4BA7FE4DA24840A8774D7C6 /* Build configuration list for PBXNativeTarget "PerchsealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAB391E7AB3F49F06A27DB3 /* Debug */,
+				8B55AD6AF5BB1F1B0E1086F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3275584AF00BEC585914F8D1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nf2nbm5m8f-oss/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E42A3320F8027FC07DDC6AF5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3275584AF00BEC585914F8D1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 43BFADF8C9FDB778EA7205D7 /* Project object */;
+}

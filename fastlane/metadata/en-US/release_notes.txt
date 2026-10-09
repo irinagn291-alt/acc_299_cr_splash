@@ -1,0 +1,14 @@
+This is version 1.0, the first release of Perchseal.
+
+Perchseal is an evening lockup book for backyard keepers. Each night you mark every banded bird home, photograph an empty perch if someone is missing, and seal when the perch matches the birds you still keep.
+
+• Onboarding pages Lock up the flock, Scan the band, Photograph the gap, and Seal the night
+• Tonight, with a live perch, perch chips (Counted, Still out, Photo), Gap note, Wing code, Scan, Photograph the gap, Seal, and Reopen
+• Birds, to Band a bird with a Name and a Wing code, or Retire a bird
+• This week, with still out, Gap rate, Health, No mash on this census, and No egg count on this census
+• Settings, with Export roll CSV, Replay onboarding, Reset all data, and Contact Perchseal
+• Camera use to read a wing band and photograph an empty perch
+• One manual mark per bird each week
+• Unknown code with Add to roster
+
+Portrait only, on iPhone and iPad. Dark appearance. Minimum iOS 17.0.

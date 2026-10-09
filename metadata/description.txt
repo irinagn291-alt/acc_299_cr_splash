@@ -1,0 +1,20 @@
+Perchseal is an evening lockup book for backyard keepers who lose track of headcount after free-ranging. Each night you mark every banded bird home, photograph an empty perch if someone is missing, and seal when the perch matches the birds you still keep. It is a personal census, not a farm ledger of mash or eggs.
+
+• Band a bird with a Name and a Wing code
+• Retire a bird from the active headcount
+• Live perch camera that reads a wing-band code and photographs an empty perch
+• Type a Wing code when the camera is off
+• Scan a known band to mark that bird Counted
+• One manual mark per bird each week by tapping a Still out chip
+• Photograph the gap with a Gap note when someone is still out
+• Seal the night when counts match
+• Reopen to drop the last mark and open the night again
+• Unknown-code alert with Add to roster
+• Tonight perch strip and headcount
+• This week: still out, Gap rate, Health
+• Export roll CSV of sealed nights
+• Replay onboarding
+• Reset all data
+• Contact Perchseal
+
+Bird names, wing codes, tonight's roll, sealed nights, and gap photos stay on this device.
