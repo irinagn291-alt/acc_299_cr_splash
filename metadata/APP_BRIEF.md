@@ -1,4 +1,4 @@
-<!-- gf-brief source=a1307bbd7bb401a6c2d27ca5b858b8b385de31aeb6b0b744f8edb87daca87352 written=2026-10-09T12:35:48+03:00 -->
+<!-- gf-brief source=a1307bbd7bb401a6c2d27ca5b858b8b385de31aeb6b0b744f8edb87daca87352 written=2026-10-09T12:39:35+03:00 -->
 # Perchseal
 
 ## What it is
